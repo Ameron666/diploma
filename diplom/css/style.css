@@ -40,11 +40,12 @@ main {
 
 .panelLeft_menu {
   padding: 15px 0 15px 30px;
+  border-left: 2px solid #ffffff00;
 }
 
 .panelLeft_menu:hover {
   background: linear-gradient(to right, #33343c 0%, #000 100%);
-
+  border-left: 2px solid #fff;
 }
 
 .panelLeft_logo__img {
@@ -91,6 +92,7 @@ main {
   padding: 10px;
   width: calc(100% - 300px);
 }
+
 
 .panel_main {
   display: flex;
